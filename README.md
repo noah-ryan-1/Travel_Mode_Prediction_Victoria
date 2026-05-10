@@ -40,22 +40,28 @@ This project was completed on behalf of a project for a Data Science University 
 The VISTA dataset is provided by Transport Victoria: opendata.transport.vic.gov.au
 
 DeepSeek – Assisted with code structuring, debugging, and README formatting
+
 ChatGPT – Helped refine methodology explanations and presentation structure
 
 All analysis, model choices, interpretations, and final conclusions are our own.
 
-## Repository Structure
+## 🧱 Repository Structure
 
 ```plaintext
 victorian-travel-mode-prediction/
 ├── README.md
-├── data/                     # VISTA source data (see link below)
+├── data/                              # VISTA source data (see link above)
+│   ├── Raw data
+│   ├── Data Stage 1 
+│   ├── Data Stage 2                     
 ├── files/
-│   ├── 01_data_extraction.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_correlation_analysis.ipynb
-│   ├── 04_machine_learning.ipynb
-│   └── 05_clustering.ipynb
+│   ├── vista_filter_merge.py
+│   ├── Code Stage 1/
+│   |   ├── ML_tree+random_forest.py
+│   |   ├── ses_vs_mode_analysis.py  
+│   ├── Code Stage 2/
+│   |   ├── Machine_Learning_students2.py
+│   |   ├── Machine_Learning_workforce.py
 ├── outputs/
 │   ├── presentation.pdf
 │   └── report.pdf
