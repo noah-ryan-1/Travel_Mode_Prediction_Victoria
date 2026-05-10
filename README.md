@@ -39,9 +39,9 @@ Key insight: Private transport dominates all socioeconomic groups — a finding 
 This project was completed on behalf of a project for a Data Science University of Melbourne Subject (COMP20008)
 The VISTA dataset is provided by Transport Victoria: opendata.transport.vic.gov.au
 
-DeepSeek – Assisted with code structuring, debugging, and README formatting
+DeepSeek – Assisted with code structuring, debugging, README formatting and generating code in developing the machine learning pipeline
 
-ChatGPT – Helped refine methodology explanations and presentation structure
+ChatGPT – Helped refine report explanations and presentation structure, and the generation of code for the pre-processing, clustering and other sections of the pipeline
 
 All analysis, model choices, interpretations, and final conclusions are our own.
 
